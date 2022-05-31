@@ -1,0 +1,202 @@
+.boxKatta{
+    width: 100%;
+    height: 65px;
+    background-color: #032541;
+    padding: 20px 0 0px 38px;
+    align-items: center;
+
+}
+
+.rang{
+    color: white;
+    margin-left: 20px;
+}
+
+.dropdown__quti{
+    width: 150px;
+    height: auto;
+    background-color: white;
+    color: black;
+    position: absolute;
+    margin-top: 10px;
+    padding: 0;
+    height: 0;
+    display: none;
+    transition: 1s;
+    border-radius: 3px;
+    z-index: 10;
+}
+
+.rang2{
+    color: #fff;
+}
+
+/* navbar2 niki */
+
+ul, li, p{
+    margin: 0;
+    padding: 0;
+
+}
+.right_navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.item ul li:hover .navbar_item {
+    display: block;
+    position: absolute;
+    background-color: white;
+}
+.navbar_item{
+    display: none;
+}
+.item ul li{
+    position: relative;
+}
+.item{
+    margin-left: 10px;
+}
+.item ul li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar_item ul{
+    display: block;
+    margin: 5px;
+}
+
+.navbar_item ul li{
+    width: 120px;
+    /* padding: 5px; */
+    list-style-type: none;
+    margin: 0;
+}
+.navbar_item ul li a{
+    text-decoration: none;
+    color: black;
+    text-align: start;
+}
+.bg{
+    background-color: rgb(3, 37, 65);
+}
+
+.textoq{
+    color: black;
+}
+
+.container2{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.textpos{
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    color: #fff;
+
+
+}
+
+.nav{
+    z-index: 100;
+}
+
+.navbar_item{
+    z-index: 101;
+}
+
+.dumaloq{
+    border-radius: 50%;
+}
+
+.my_cards {
+    min-width: 300px;
+    position: relative;
+  
+  } 
+
+  .scroll_carousel {
+    margin-top: 50px;
+    min-width: 100vw;
+    display: flex;
+    overflow-x: scroll;
+    padding: 0 150px 0 0;
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-vector/abstract-paper-hexagon-white-background_51543-7.jpg);
+    background-position: center;
+  
+  }
+
+  .minw{
+      min-width: 1000px;
+      outline: none;
+      border: none;
+      padding: 10px;
+      border-radius: 15px ;
+  }
+
+  .textoqrang{
+      position: absolute;
+      top: 320px;
+      left: 20px;
+  }
+  .ant-progress-text{
+      color: #fff !important;
+  }
+
+  .narsa2{
+      position: relative;
+  }
+
+  .textwin{
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 15px ;
+  }
+
+  .div5{
+    min-width: 1000px;
+    /* height: 300px; */
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: 200;
+    border-radius: 15px;
+}
+
+.div6{
+    display: none;
+}
+
+.textoqrang2{
+    position: absolute;
+    top: 12px;
+    left: 190px;
+    color: #fff;
+    /* font-size: 10px; */
+    opacity: 0.6;
+}
+
+.img5 img:hover{
+    /* background-color: blue; */
+    /* border-radius: 15px; */
+    opacity: 1;
+}
+
+.cardLists2{
+    width: 1000px;
+    /* border: 15px; */
+}
+
+.footer{
+    width: 99%;
+    background-color: rgb(3, 37, 65);
+}
+
+.rasmv2{
+   background: url(https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-947-circle-more-white-4c440dfc1b0e626c70f4853dbbce9c4d1f2c5d8f3e05a7d3df47881cbd816adf.svg)
+}
